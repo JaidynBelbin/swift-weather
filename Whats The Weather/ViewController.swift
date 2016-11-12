@@ -24,6 +24,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             data, response, error in
             
+            // Variable to hold the weather details to be displayed.
             var weatherMessage = ""
             
             // If there's an error
@@ -86,7 +87,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
